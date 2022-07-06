@@ -63,7 +63,13 @@
 				16,
 				18,
 				20,
-				22
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34
 			]
 		}
 	],
@@ -107,7 +113,13 @@
 				16,
 				18,
 				20,
-				22
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34
 			]
 		},
 		{
@@ -125,7 +137,13 @@
 				17,
 				19,
 				21,
-				23
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35
 			]
 		}
 	],
@@ -261,6 +279,72 @@
 		{
 			"backtrace" : 1,
 			"path" : "基础/Lesson_11_数字.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "基础/Lesson_12_数组.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "基础/Lesson_12_数组.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "基础/Lesson_13_字符串.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "基础/Lesson_13_字符串.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "基础/Lesson_14_指针和引用.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "基础/Lesson_14_指针和引用.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "基础/Lesson_15_日期和时间.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "基础/Lesson_15_日期和时间.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "基础/Lesson_16_基本输入输出.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "基础/Lesson_16_基本输入输出.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "基础/Lesson_17_数据结构.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "基础/Lesson_17_数据结构.h",
 			"sourceGroupIndex" : 1
 		}
 	],

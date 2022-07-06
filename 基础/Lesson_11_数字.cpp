@@ -116,7 +116,7 @@ int main111() {
 
 using namespace std;
 
-int main() {
+int main112() {
     int j;
 
     //设置种子
