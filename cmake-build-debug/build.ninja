@@ -180,6 +180,12 @@ build CMakeFiles/CLionProjects.dir/基础/Lesson_17_数据结构.cpp.o: CXX_COMP
   OBJECT_DIR = CMakeFiles/CLionProjects.dir
   OBJECT_FILE_DIR = CMakeFiles/CLionProjects.dir/基础
 
+build CMakeFiles/CLionProjects.dir/面相对象/Lesson_1_类和对象.cpp.o: CXX_COMPILER__CLionProjects_Debug /Users/edy/main/c++/CLionProjects/面相对象/Lesson_1_类和对象.cpp || cmake_object_order_depends_target_CLionProjects
+  DEP_FILE = CMakeFiles/CLionProjects.dir/面相对象/Lesson_1_类和对象.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CLionProjects.dir
+  OBJECT_FILE_DIR = CMakeFiles/CLionProjects.dir/面相对象
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CLionProjects
@@ -188,7 +194,7 @@ build CMakeFiles/CLionProjects.dir/基础/Lesson_17_数据结构.cpp.o: CXX_COMP
 #############################################
 # Link the executable CLionProjects
 
-build CLionProjects: CXX_EXECUTABLE_LINKER__CLionProjects_Debug CMakeFiles/CLionProjects.dir/基础/Lesson_1_简介.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_2_基本语法.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_3_数据类型.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_4_变量类型.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_5_变量作用域.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_6_常量.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_7_修饰符.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_8_存储类.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_8_support/Lesson_8_support.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_9_运算符.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_10_函数.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_11_数字.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_12_数组.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_13_字符串.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_14_指针和引用.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_15_日期和时间.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_16_基本输入输出.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_17_数据结构.cpp.o
+build CLionProjects: CXX_EXECUTABLE_LINKER__CLionProjects_Debug CMakeFiles/CLionProjects.dir/基础/Lesson_1_简介.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_2_基本语法.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_3_数据类型.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_4_变量类型.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_5_变量作用域.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_6_常量.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_7_修饰符.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_8_存储类.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_8_support/Lesson_8_support.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_9_运算符.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_10_函数.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_11_数字.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_12_数组.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_13_字符串.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_14_指针和引用.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_15_日期和时间.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_16_基本输入输出.cpp.o CMakeFiles/CLionProjects.dir/基础/Lesson_17_数据结构.cpp.o CMakeFiles/CLionProjects.dir/面相对象/Lesson_1_类和对象.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/CLionProjects.dir
   POST_BUILD = :
