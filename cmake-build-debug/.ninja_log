@@ -1,12 +1,13 @@
 # ninja log v5
 2	914	1656988795283481267	CMakeFiles/CLionProjects.dir/Lesson_变量类型.cpp.o	7ade1848bbc18d7c
 0	880	1656998479657988108	CMakeFiles/CLionProjects.dir/基础/Lesson_1_简介.cpp.o	85e9d725f4047f42
-3	907	1657186505828651920	CMakeFiles/CLionProjects.dir/面相对象/Lesson_1_类和对象.cpp.o	ae97b85a72a47d70
-8	924	1657091287194258520	CMakeFiles/CLionProjects.dir/基础/Lesson_12_数组.cpp.o	5b0d41c2da1fb5ff
-3	840	1657010955840623929	CMakeFiles/CLionProjects.dir/基础/Lesson_8_存储类.cpp.o	ec80835e6e57a24a
+4	902	1657189238849191971	CMakeFiles/CLionProjects.dir/面相对象/Lesson_1_类和对象.cpp.o	ae97b85a72a47d70
+3	743	1657004707633500350	CMakeFiles/CLionProjects.dir/基础/Lesson_4_变量类型.cpp.o	cf98590ca2d89447
 2	721	1657095344283971445	CMakeFiles/CLionProjects.dir/基础/Lesson_13_字符串.cpp.o	fb8ca73daae6146d
 3	650	1657185075581616294	CMakeFiles/CLionProjects.dir/基础/Lesson_14_指针和引用.cpp.o	76d8e72fa15e0c38
-907	978	1657186505903463193	CLionProjects	8818892c0d64d69d
+1274	1393	1657246796449620774	CLionProjects	261353db656b50f3
+8	924	1657091287194258520	CMakeFiles/CLionProjects.dir/基础/Lesson_12_数组.cpp.o	5b0d41c2da1fb5ff
+3	840	1657010955840623929	CMakeFiles/CLionProjects.dir/基础/Lesson_8_存储类.cpp.o	ec80835e6e57a24a
 2	864	1657005316730818932	CMakeFiles/CLionProjects.dir/基础/Lesson_8_support/Lesson_8_support.cpp.o	4b63a013e38a4088
 4	884	1656998479661685225	CMakeFiles/CLionProjects.dir/基础/Lesson_5_变量作用域.cpp.o	3edd663483834a2a
 2	921	1656998479699127990	CMakeFiles/CLionProjects.dir/基础/Lesson_2_基本语法.cpp.o	9de1069fd47230f4
@@ -19,10 +20,9 @@
 0	962	1656989314982497416	CMakeFiles/CLionProjects.dir/基础/Lesson_数据类型.cpp.o	fcde03546eb04228
 3	831	1657002573562128516	CMakeFiles/CLionProjects.dir/基础/Lesson_6_常量.cpp.o	3847aa06568484b5
 2	693	1656568015017587642	CMakeFiles/CLionProjects.dir/Lesson_1_简介.cpp.o	f994fce97a497bf9
-3	743	1657004707633500350	CMakeFiles/CLionProjects.dir/基础/Lesson_4_变量类型.cpp.o	cf98590ca2d89447
-0	118	1657188618924067965	build.ninja	d630ed1aa9ba0ad8
-2	3788	1656987265427691352	CMakeFiles/CLionProjects.dir/Lesson_数据类型.cpp.o	4766831a91b5ab6f
 4	64	1657010733929913612	CMakeFiles/CLionProjects.dir/基础/Lesson_9_运算符.cpp.o	ef7da60b937f1016
+2	3788	1656987265427691352	CMakeFiles/CLionProjects.dir/Lesson_数据类型.cpp.o	4766831a91b5ab6f
+0	118	1657247458277783994	build.ninja	d630ed1aa9ba0ad8
 3	967	1656998479747079545	CMakeFiles/CLionProjects.dir/基础/Lesson_3_数据类型.cpp.o	19163db7026b2be3
 3	757	1657004707645945962	CMakeFiles/CLionProjects.dir/基础/Lesson_7_修饰符.cpp.o	15f4e10a55287d5a
 1	886	1656989314904217915	CMakeFiles/CLionProjects.dir/基础/Lesson_简介.cpp.o	c3eff28e23546364
@@ -31,8 +31,7 @@
 0	994	1656570144112026073	CMakeFiles/CLionProjects.dir/Lesson_简介.cpp.o	d117ca6552847295
 2	817	1657103349464697282	CMakeFiles/CLionProjects.dir/基础/Lesson_15_日期和时间.cpp.o	43aafc35bf6285ec
 2	991	1656572403157904412	CMakeFiles/CLionProjects.dir/Lesson_基本语法.cpp.o	189c7e0c8ac46362
-4	902	1657189238849191971	CMakeFiles/CLionProjects.dir/面相对象/Lesson_1_类和对象.cpp.o	ae97b85a72a47d70
-5	902	1657189238847559942	CMakeFiles/CLionProjects.dir/面相对象/Lesson_2_继承.cpp.o	52fc841707f43ba0
-902	1008	1657189238960536937	CLionProjects	261353db656b50f3
 5	1274	1657246796323172251	CMakeFiles/CLionProjects.dir/面相对象/Lesson_2_继承.cpp.o	52fc841707f43ba0
-1274	1393	1657246796449620774	CLionProjects	261353db656b50f3
+11	1226	1657250696282433124	CMakeFiles/CLionProjects.dir/面相对象/Lesson_3_重载运算符和重载函数.cpp.o	746e19cd8f1e0647
+7	1226	1657250696282430413	CMakeFiles/CLionProjects.dir/面相对象/Lesson_2_继承.cpp.o	52fc841707f43ba0
+1226	1331	1657250696396983291	CLionProjects	aaad3f70292723a5
