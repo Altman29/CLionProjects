@@ -54,7 +54,7 @@ int main112509() {
 /*
  * C++中的运算符重载
  * 可以重定义或重载大部分C++内置的运算符。这样，就能使用自定义类型的运算符。
- * 重载的运算符是带有特殊名称的函数，函数名是由关键字operator和期后要重载的运算符符号构成的。
+ * 重载的运算符是带有特殊名称的函数，函数名是由关键字operator和其后要重载的运算符符号构成的。
  * 与其他函数一样，重载运算符有一个返回类型和一个参数列表。
  * Box operator+(const Box&);
  * 声明加法运算符用于把俩个Box对象相加，返回最终的Box对象。
@@ -64,3 +64,100 @@ int main112509() {
  *
  * 下面示例使用成员函数演示了运算符重载的概念。在这里，对象作为参数进行传递，对象的属性使用this运算符进行访问：
  */
+#include <iostream>
+
+using namespace std;
+
+class MyBox {
+private:
+    double length;//长度
+    double width;//宽度
+    double height;//高度
+public:
+    double getVolume() const {
+        return length * width * height;
+    }
+
+    void setLength(double len) {
+        length = len;
+    }
+
+    void setWidth(double wid) {
+        width = wid;
+    }
+
+    void setHeight(double hei) {
+        height = hei;
+    }
+
+    //重载+运算符，用于把俩个MyBox相加
+    MyBox operator+(MyBox &b) {
+        MyBox box;
+        box.length = this->length + b.length;
+        box.width = this->width + b.width;
+        box.height = this->height + b.height;
+        return box;
+    }
+};
+
+int main165602() {
+    MyBox box1;
+    MyBox box2;
+    MyBox box3;
+    double volume = 0.0;
+
+    //MyBox1
+    box1.setLength(6.0);
+    box1.setWidth(7.0);
+    box1.setHeight(5.0);
+
+    //MyBox2
+    box2.setLength(12.0);
+    box2.setWidth(13.0);
+    box2.setHeight(10.0);
+
+    //box1 体积
+    volume = box1.getVolume();
+    cout << "Volume of box1: " << volume << endl;
+
+    //box2 体积
+    volume = box2.getVolume();
+    cout << "Volume of box2: " << volume << endl;
+
+    //把俩个对象相加，得到box3
+    box3 = box1 + box2;
+
+    //box3 体积
+    volume = box3.getVolume();
+    cout << "Volume of box3: " << volume << endl;
+
+    return 0;
+}
+
+/*
+ * 可重载运算符
+ * 双目算术运算符	+ (加)，-(减)，*(乘)，/(除)，% (取模)
+ * 关系运算符	==(等于)，!= (不等于)，< (小于)，> (大于)，<=(小于等于)，>=(大于等于)
+ * 逻辑运算符	||(逻辑或)，&&(逻辑与)，!(逻辑非)
+ * 单目运算符	+ (正)，-(负)，*(指针)，&(取地址)
+ * 自增自减运算符	++(自增)，--(自减)
+ * 位运算符	| (按位或)，& (按位与)，~(按位取反)，^(按位异或),，<< (左移)，>>(右移)
+ * 赋值运算符	=, +=, -=, *=, /= , % = , &=, |=, ^=, <<=, >>=
+ * 空间申请与释放	new, delete, new[ ] , delete[]
+ * 其他运算符	()(函数调用)，->(成员访问)，,(逗号)，[](下标)
+ *
+ * 不可重载运算符
+ * .：成员访问运算符
+ * .*, ->*：成员指针访问运算符
+ * ::：域运算符
+ * sizeof：长度运算符
+ * ?:：条件运算符
+ * #： 预处理符号
+ *
+ * 值得注意的是
+ * 1.运算符重载不可以改变语法结构哦
+ * 2.运算符重载不可以改变操作数的个数
+ * 3.运算符重载不可以改变优先级
+ * 4.运算符重载不可以改变结合性
+ */
+
